@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* html {
+    font-size: 10px;
+} */
+
+.cv {
+    display: flex;
+}
+
+.cv-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.cv-photo img {
+    background: #191919;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: .5em;
+    width: 50%;
+}
+
+.cv-inf {
+    background: #F1F1F1;
+    flex: 30%;
+}
+
+.cv-inf li {
+    display: flex;
+    border-bottom: 1px solid #969696;
+    line-height: 2.5em;
+}
+
+.cv-inf h1 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    /* line-height: 3em; */
+}
+
+.cv-inf span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8em;
+    min-width: 9em;
+}
+
+.cv-inf ul {
+    width: 80%;
+    margin: 0em 2em 2.5em;
+}
+
+.cv-inf a {
+    color: inherit;
+}
+
+.cv-enlaces li a span {
+    text-transform: none;
+    font-size: inherit;
+}
+
+.cv-inf i {
+    margin-top: .7em;
+    min-width: 1.5em;
+}
+
+.cv-cont {
+    background: #191919;
+    color: #969696;
+    flex: 70%;
+}
